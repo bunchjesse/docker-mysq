@@ -1,0 +1,9 @@
+[mysqld]
+
+# Query Cache #
+query_cache_type = ON
+query_cache_size = 256000000 # 256mb
+query_cache_limit = 5242880 # 5mb
+
+# Packet Size #
+max_allowed_packet = 8388608 # 8mb
